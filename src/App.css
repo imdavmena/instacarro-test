@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: #ddf9c4;
+}
+.navbarStyle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .navbarStyle {
+    flex-direction: column;
+  }
+}
+
+.sideMenuStyle {
+  padding: 5px;
+  flex: none;
+}
+
+.linksStyle {
+  padding: 5px;
+
+  flex: 1;
+}
+
+.linkStyle {
+  margin: 5rem;
+}
+
+.spacerStyle {
+  background: #fff9c4;
+  flex: 1;
+}
+
+.userMenuStyle {
+  padding: 5px;
+
+  flex: none;
+}
+
+.userMenuStyle img {
+  border-radius: 50px;
+}
